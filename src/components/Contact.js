@@ -110,7 +110,7 @@ export default function Contact() {
                                             type="submit"
                                             class="
                         w-full
-                        text-white
+                        text-sky-800
                         bg-primary
                         rounded
                         border border-primary
