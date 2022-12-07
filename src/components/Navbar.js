@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -41,9 +42,9 @@ export default function Navbar() {
 
           <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Register a School</a>
 
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Contact Us</a>
+          <Link to="/contact" class="font-semibold text-gray-900 hover:text-gray-900">Contact Us</Link>
 
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">About Us</a>
+          <Link to="/about" class="font-semibold text-gray-900 hover:text-gray-900">About Us</Link>
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
           <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a>
